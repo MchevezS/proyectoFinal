@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom"
 const Login = ()=>{
+
+    
+    const navigate =useNavigate()
     return(
         <>
 
@@ -7,7 +11,9 @@ const Login = ()=>{
             <input placeholder= "Password"/>
             <button onClick={Login}>Iniciar sesión</button>
 
-             <a href="Registrarse">No tienes cuenta?</a>
+             <a onClick={()=>{
+                navigate("/Registro")
+             }}>No tienes cuenta?</a>
 
             
         </>

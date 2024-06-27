@@ -17,7 +17,8 @@ const router = createBrowserRouter([
     element:<Registrarse/>
   },
   {
-    path:""
+    path:"/Inicio",
+    element: <div></div>
   }
 
 

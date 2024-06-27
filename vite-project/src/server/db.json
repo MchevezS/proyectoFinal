@@ -1,11 +1,44 @@
 {
-    "users": [
-      { "id": 1, "name": "John Doe", "email": "john@example.com" },
-      { "id": 2, "name": "Jane Smith", "email": "jane@example.com" }
-    ],                                                                
-    "postres": [
-        { "name": "3 Leches", "price": "1500" },
-        { "name": "Jane Smith", "email": "jane@example.com" }
-      ]
-  }
-  
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com"
+    },
+    {
+      "id": "26b3",
+      "nombre": "asdf",
+      "correo": "asd",
+      "clave": "ASDF"
+    },
+    {
+      "id": "3464",
+      "nombre": "asdf",
+      "correo": "asd",
+      "clave": "123"
+    },
+    {
+      "id": "1442",
+      "nombre": "asdf",
+      "correo": "asd",
+      "clave": "123"
+    }
+  ],
+  "postres": [
+    {
+      "name": "3 Leches",
+      "price": "1500",
+      "id": "d78c"
+    },
+    {
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "id": "406d"
+    }
+  ]
+}
