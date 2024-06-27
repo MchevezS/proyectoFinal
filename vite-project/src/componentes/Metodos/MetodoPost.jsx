@@ -21,3 +21,4 @@ async function MetodoPost() {
         console.error(error);
     }
 }
+export {MetodoPost}
