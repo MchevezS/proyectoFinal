@@ -1,0 +1,11 @@
+{
+    "users": [
+      { "id": 1, "name": "John Doe", "email": "john@example.com" },
+      { "id": 2, "name": "Jane Smith", "email": "jane@example.com" }
+    ],                                                                
+    "postres": [
+        { "name": "3 Leches", "price": "1500" },
+        { "name": "Jane Smith", "email": "jane@example.com" }
+      ]
+  }
+  
