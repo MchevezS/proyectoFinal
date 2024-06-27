@@ -1,4 +1,12 @@
 const Registrarse = ()=>{
+
+    /*
+        Crear estados por cada uno de los inputs
+        Crear una funcion que haga el agregado de usuarios, dentro de esa se llama la funcion POST
+        En cada input, hacer la funcion onChange, para mantener el contenido de los inputs actualizado, previo a mandarlo
+        a la API
+
+    */
     return(
         <>
 
