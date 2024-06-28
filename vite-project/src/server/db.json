@@ -27,6 +27,24 @@
       "nombre": "asdf",
       "correo": "asd",
       "clave": "123"
+    },
+    {
+      "id": "ee12",
+      "nombre": "jik",
+      "correo": "saboriomichelle93@gmail.com",
+      "clave": "nm"
+    },
+    {
+      "id": "1a27",
+      "nombre": "michelle",
+      "correo": "chevez",
+      "clave": "chevez123"
+    },
+    {
+      "id": "92b5",
+      "nombre": "michelle",
+      "correo": "chevez",
+      "clave": "chevez123"
     }
   ],
   "postres": [

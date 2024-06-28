@@ -13,14 +13,11 @@ const Registrarse = ()=>{
 
        /* Hice una funcion para el agregado de los usuarios, dentro de esta funcion llame al metodo post*/
        function agregarUsuarios () {
-        if (inputConfirmaClave === inputClave) {
-            
+        
             const usuarios = {nombre:inputNombre, correo:inputCorreo, clave:inputClave}
            MetodoPost('users',usuarios)
-        }
-        else{
-            alert("Su clave no coincide")  
-        }
+        
+        
 
        }
         //   validaciones para los inputs/ las alertas las tengo que cambiar
@@ -28,15 +25,22 @@ const Registrarse = ()=>{
             if (inputNombre.trim()== "") {
                 alert("nombre vacio")
             }
-            if(inputCorreo.trim()==="" ) {
+            else if(inputCorreo.trim()==="" ) {
                 alert("ingrese su correo")
             }
-            if (inputClave.trim()=== "") {
+            else if (inputClave.trim()=== "") {
                 alert("ingrese su clave")
             } 
-            if (inputConfirmaClave.trim()=== "") {
+            else if (inputConfirmaClave.trim()=== "") {
                 alert("ingrese su clave para confimar ")
             }
+                // valide que las claves tienen que ser igual
+            else if (!(inputConfirmaClave === inputClave)) {
+                alert("Su clave no coincide")
+            }else{
+                agregarUsuarios()
+            }
+
         }
 
 
