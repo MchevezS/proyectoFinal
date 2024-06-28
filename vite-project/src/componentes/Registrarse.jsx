@@ -42,17 +42,15 @@ const Registrarse = ()=>{
             }
 
         }
-
-
     return(
         <>
 
          <h1> Registrate! </h1>
          {/* En cada input hice la funcion del onChange, para mantener el contenido de los inputs actualizados, y eso hace que me los mande al API  */}
-         <input placeholder="Nombre completo" onChange={(e)=>setInputNombre(e.target.value)}/>
-         <input placeholder="Correo electronico" onChange={(e)=>setInputCorreo(e.target.value)}/>
-         <input placeholder="Ingrese su clave" onChange={(e)=>setInputClave(e.target.value)}/>
-         <input placeholder="Confirme su clave" onChange={(e)=>setInputConfirmaClave(e.target.value)}/>
+         <input type="text" placeholder="Nombre completo" onChange={(e)=>setInputNombre(e.target.value)}/>
+         <input type="email" placeholder="Correo electronico" onChange={(e)=>setInputCorreo(e.target.value)}/>
+         <input type="clave" placeholder="Ingrese su clave" onChange={(e)=>setInputClave(e.target.value)}/>
+         <input type="clave" placeholder="Confirme su clave" onChange={(e)=>setInputConfirmaClave(e.target.value)}/>
 
          <button onClick={validacionesInput}>Registrarse.</button>
          <a onClick={()=>{
