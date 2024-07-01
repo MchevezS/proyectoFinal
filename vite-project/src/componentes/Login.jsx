@@ -1,4 +1,5 @@
-import {useState} from "react"
+// proyectoFinal\vite-project\src
+import {useState, useEffect} from "react"
 import { useNavigate } from "react-router-dom"
 import Registrarse from "./Registrarse"
 import { MetodoPost } from "./Metodos/MetodoPost"
@@ -9,40 +10,48 @@ const Login = ()=>{
     const [usuario, setUsuario] = useState('')
     const [password, setPasssword] = useState('')
     const [listaUsuarios,setListaUsuarios]=useState([])
-
-
-    /*
-        El useEffect ejecuta una funcion APENAS carga la pag, y cuando su arreglo de dependencias cambia
-        []
-    /*
-
-    /*
-        Debe usar un useEffect, para traer la informacion de los usuarios y validar esta con la que esta escrita en los inputs
-
-        RECOMENDACIONES:
-        usar el .find por  ejemplo listaUsuarios.find
-
-        RECORDATORIO:
-        El find de los arreglos, le va a devolver VERDADERO si encuentra el dato que está entre los parentesis
-    */
-
     const navigate =useNavigate()
 
-    /* Hice una funcion para el agregado de los usuarios, dentro de esta funcion llame al metodo post*/
+      useEffect(()=>{
+        const usuariosRegistro = async()=>{
+            let preListaUsuarios = await MetodoGet('users');
+            setListaUsuarios(preListaUsuarios) 
 
-    // function AgregarUsuario() {                          Al parecer noo me funciona
-    //     const datosUsuarios = { nombre:usuario, clave:password}
-    //     console.log("estoy dentro");
-    // }
+        }
+        
+        usuariosRegistro()
+        console.log(listaUsuarios);
+      },[])
+
+
+    function validar() {
+          
+        let validarInicio = listaUsuarios.find((user)=> usuario === user.nombre && password ===user.clave)
+
+      console.log(usuario);
+      
+        if (validarInicio) {
+            console.log(validarInicio);
+            validaInputs()
+            navigate("/Registro") // despues voy a poner para que me tire a la pagina principal.
+            alert('entra pag')
+        }else{
+            alert('incorrecto')
+        }
+
+    }
+    
+
+
     
 
       //   validaciones para los inputs/ las alertas las tengo que cambiar
       function validaInputs() {
         if (usuario.trim()==="") {
-            alert("Su usuario no se encuentra registrado")
+            alert("Por favor llene los campos ")
         }
         if (password.trim()=== "") {
-            alert("clave incorrecta")
+            alert("Por favor llene los campos")
             console.log(validaInputs);
         }else{
             // MetodoPost()
@@ -56,7 +65,7 @@ const Login = ()=>{
 
             <input type="usuario" placeholder= "Nmbre de usuario" onChange={(e)=>setUsuario(e.target.value)}/>
             <input type="Password " placeholder= "Password" onChange={(e)=>setPasssword(e.target.value)}/>
-            <button onClick={validaInputs}>Iniciar sesión</button>
+            <button onClick={validar}>Iniciar sesión</button>
 
              <a onClick={()=>{
                 navigate("/Registro")

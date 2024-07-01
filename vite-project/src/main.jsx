@@ -9,7 +9,7 @@ import Registrarse from './componentes/Registrarse.jsx'
 
 const router = createBrowserRouter([
   {
-    path:"/",
+    path:"/Inicio",
     element:<Login/>
   },
   {

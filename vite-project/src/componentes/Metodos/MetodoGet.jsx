@@ -1,11 +1,10 @@
-async function MetodoGet() {
+async function MetodoGet(endpoint) {
     try {
-        const response = await fetch ("http://localhost:3001",{
-            method: "POST",
+        const response = await fetch ("http://localhost:3001/"+endpoint,{
+            method: "GET",
             headers:{
                  "Content-type": "application/json; charset=UTF-8"
             },
-            body:JSON.stringify()
         })
         const datos = await response.json()
         console.log(datos);

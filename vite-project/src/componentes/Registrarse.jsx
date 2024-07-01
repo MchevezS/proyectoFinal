@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState } from "react"
 import { MetodoPost } from "./Metodos/MetodoPost"
 import { useNavigate } from "react-router-dom"
@@ -16,7 +17,7 @@ const Registrarse = ()=>{
         
             const usuarios = {nombre:inputNombre, correo:inputCorreo, clave:inputClave}
            MetodoPost('users',usuarios)
-        
+            navigate("/Inicio")
         
 
        }
@@ -40,8 +41,8 @@ const Registrarse = ()=>{
             }else{
                 agregarUsuarios()
             }
-
         }
+        
     return(
         <>
 
