@@ -10,6 +10,10 @@ import FormularioArticulos from './componentes/FormularioArticulos.jsx'
 
 const router = createBrowserRouter([
   {
+    path:"/",
+    element:<Login/>
+  },
+  {
     path:"/Inicio",
     element:<Login/>
   },
@@ -18,7 +22,7 @@ const router = createBrowserRouter([
     element:<Registrarse/>
   },
   {
-    path:"/Añadir Productos",
+    path:"/aggproductos",
     element:<FormularioArticulos/>
   },
 

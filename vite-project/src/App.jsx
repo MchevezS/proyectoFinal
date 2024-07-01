@@ -17,6 +17,7 @@ function App() {
     <>
    { pagina?<Registrarse cambioPG={cambioPag}/>:<Login cambioPG={cambioPag}/>}
       <h1>holaa</h1>
+      <FormularioArticulos/>
     </>
   )
 }

@@ -33,7 +33,7 @@ const Login = ()=>{
         if (validarInicio) {
             console.log(validarInicio);
             validaInputs()
-            navigate("/") // despues voy a poner para que me tire a la pagina principal.
+            navigate("/aggproductos") // despues voy a poner para que me tire a la pagina principal.
             alert('entra pag')
         }else{
             alert('incorrecto')
