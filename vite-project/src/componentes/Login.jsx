@@ -33,17 +33,13 @@ const Login = ()=>{
         if (validarInicio) {
             console.log(validarInicio);
             validaInputs()
-            navigate("/Registro") // despues voy a poner para que me tire a la pagina principal.
+            navigate("/") // despues voy a poner para que me tire a la pagina principal.
             alert('entra pag')
         }else{
             alert('incorrecto')
         }
 
     }
-    
-
-
-    
 
       //   validaciones para los inputs/ las alertas las tengo que cambiar
       function validaInputs() {

@@ -5,6 +5,7 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Login from './componentes/Login.jsx'
 import Registrarse from './componentes/Registrarse.jsx'
+import FormularioArticulos from './componentes/FormularioArticulos.jsx'
 
 
 const router = createBrowserRouter([
@@ -17,10 +18,9 @@ const router = createBrowserRouter([
     element:<Registrarse/>
   },
   {
-    path:"/Inicio",
-    element: <div></div>
-  }
-
+    path:"/Añadir Productos",
+    element:<FormularioArticulos/>
+  },
 
 ])
 
