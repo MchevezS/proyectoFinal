@@ -22,60 +22,14 @@
       "nombre": "     ehdospj",
       "correo": "bfoidpo;e",
       "clave": "123"
-    },
+    }
+  ],
+  
+  "productos": [
     {
-      "id": "97a0",
-      "nombre": "     ehdospj",
-      "correo": "bfoidpo;e",
-      "clave": "123"
-    },
-    {
-      "id": "5494",
-      "nombre": "     ehdospj",
-      "correo": "bfoidpo;e",
-      "clave": "123"
-    },
-    {
-      "id": "23e6",
-      "nombre": "Michelle",
-      "correo": "saboriomichelle93@gmail.com",
-      "clave": "michelle"
-    },
-    {
-      "id": "72d2",
-      "nombre": "mich",
-      "correo": "saboriomichelle93@gmail.com",
-      "clave": "michelle"
-    },
-    {
-      "id": "7947",
-      "nombre": "mich",
-      "correo": "saboriomichelle93@gmail.com",
-      "clave": "michelle"
-    },
-    {
-      "id": "185a",
-      "nombre": "michelle",
-      "correo": "saboriomichelle93@gmail.com",
-      "clave": "4545"
-    },
-    {
-      "id": "5790",
-      "nombre": "fran",
-      "correo": "dasd@dasd",
-      "clave": "2020"
-    },
-    {
-      "id": "6705",
-      "nombre": "fran",
-      "correo": "juanita@gmail.com",
-      "clave": "2020"
-    },
-    {
-      "id": "6113",
-      "nombre": "iodjcxlp;dc",
-      "correo": "fc xll;d",
-      "clave": "5454"
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com"
     }
   ]
 }

@@ -52,7 +52,6 @@ const Registrarse = ()=>{
          <input type="email" placeholder="Correo electronico" onChange={(e)=>setInputCorreo(e.target.value)}/>
          <input type="clave" placeholder="Ingrese su clave" onChange={(e)=>setInputClave(e.target.value)}/>
          <input type="clave" placeholder="Confirme su clave" onChange={(e)=>setInputConfirmaClave(e.target.value)}/>
-
          <button onClick={validacionesInput}>Registrarse.</button>
          <a onClick={()=>{
              navigate("/")
