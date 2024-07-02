@@ -28,6 +28,12 @@
       "nombre": "mich",
       "correo": "mich",
       "clave": "1520"
+    },
+    {
+      "id": "c7ff",
+      "nombre": "chevez",
+      "correo": "saboriomichelle93@gmail.com",
+      "clave": "123"
     }
   ],
   "productos": [

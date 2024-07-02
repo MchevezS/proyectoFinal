@@ -4,6 +4,7 @@ import './App.css'
 import Login from './componentes/Login'
 import Registrarse from './componentes/Registrarse'
 import FormularioArticulos from './componentes/FormularioArticulos'
+import Navbar from './componentes/Principal/Navbar'
 
 function App() {
   const [pagina, setPagina]=useState(false)
@@ -17,6 +18,8 @@ function App() {
     <>
    { pagina?<Registrarse cambioPG={cambioPag}/>:<Login cambioPG={cambioPag}/>}
       <h1>holaa</h1>
+      <Navbar></Navbar>
+
     </>
   )
 }
