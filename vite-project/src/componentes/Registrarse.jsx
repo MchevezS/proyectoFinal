@@ -1,7 +1,7 @@
 import React from 'react'
-import { useState } from "react"
-import { MetodoPost } from "./Metodos/MetodoPost"
-import { useNavigate } from "react-router-dom"
+import {useState} from "react"
+import {MetodoPost} from "./Metodos/MetodoPost"
+import {useNavigate} from "react-router-dom"
 
 const Registrarse = ()=>{
     // cree estados para cada uno de los inputs
@@ -48,10 +48,10 @@ const Registrarse = ()=>{
 
          <h1> Registrate! </h1>
          {/* En cada input hice la funcion del onChange, para mantener el contenido de los inputs actualizados, y eso hace que me los mande al API  */}
-         <input type="text" placeholder="Nombre completo" onChange={(e)=>setInputNombre(e.target.value)}/>
-         <input type="email" placeholder="Correo electronico" onChange={(e)=>setInputCorreo(e.target.value)}/>
-         <input type="clave" placeholder="Ingrese su clave" onChange={(e)=>setInputClave(e.target.value)}/>
-         <input type="clave" placeholder="Confirme su clave" onChange={(e)=>setInputConfirmaClave(e.target.value)}/>
+         <input type="text" value={inputNombre} placeholder="Nombre completo" onChange={(e)=>setInputNombre(e.target.value)}/>
+         <input type="email" value={inputCorreo} placeholder="Correo electronico" onChange={(e)=>setInputCorreo(e.target.value)}/>
+         <input type="clave" value={inputClave} placeholder="Ingrese su clave" onChange={(e)=>setInputClave(e.target.value)}/>
+         <input type="clave" value={inputConfirmaClave} placeholder="Confirme su clave" onChange={(e)=>setInputConfirmaClave(e.target.value)}/>
          <button onClick={validacionesInput}>Registrarse.</button>
          <a onClick={()=>{
              navigate("/")

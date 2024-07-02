@@ -1,8 +1,6 @@
-import React from 'react'
-import { useState } from 'react'
-import React from 'react'
-import { FormularioPost } from './Metodos/FormularioPost'
-
+import {useState} from 'react'
+import {FormularioPost} from './Metodos/FormularioPost'
+import { useNavigate } from "react-router-dom"
 
 function FormularioArticulos() {
    const [producto, setProducto]= useState('')
@@ -10,12 +8,12 @@ function FormularioArticulos() {
    const [ingredientes, setIngredientes] = useState('')
    const [precio, setPrecio] = useState ('')
    const [imagen, setImegen] = useState('')
-    const navigate = useNegative()
+   const navigate =useNavigate()
 
     function guardaProducto () {
       const productos = {producto:producto, informacion:descripcion, ingredientes:ingredientes, costo:precio, imagen:imagen}
         FormularioPost('productos',productos)
-           navigate('') // aqui tengo que agregar pagina principal de todos los productos
+           navigate('/Productos') // aqui tengo que agregar pagina principal de todos los productos
     }
     const vacios =()=>{
       if (producto.trim()==="") {

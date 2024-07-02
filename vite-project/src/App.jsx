@@ -1,5 +1,5 @@
 
-import { useState } from 'react'
+import {useState} from 'react'
 import './App.css'
 import Login from './componentes/Login'
 import Registrarse from './componentes/Registrarse'
@@ -17,7 +17,6 @@ function App() {
     <>
    { pagina?<Registrarse cambioPG={cambioPag}/>:<Login cambioPG={cambioPag}/>}
       <h1>holaa</h1>
-      <FormularioArticulos/>
     </>
   )
 }

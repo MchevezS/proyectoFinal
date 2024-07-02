@@ -1,6 +1,6 @@
 // proyectoFinal\vite-project\src
 import {useState, useEffect} from "react"
-import { useNavigate } from "react-router-dom"
+import {useNavigate} from "react-router-dom"
 import Registrarse from "./Registrarse"
 import { MetodoPost } from "./Metodos/MetodoPost"
 import MetodoGet from "./Metodos/MetodoGet"
