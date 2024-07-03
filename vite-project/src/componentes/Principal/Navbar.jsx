@@ -1,5 +1,8 @@
 import React from 'react'
-
+import MejorCategoria from './MejorCategoria'
+import MejoresProductos from './MejoresProductos'
+import InfoContacto from './InfoContacto'
+import InfoCafeteria from './InfoCafeteria'
 export default function Navbar() {
 
   return (<>
@@ -25,6 +28,11 @@ export default function Navbar() {
      <p>100% Natural</p>
      <button >Comprar ahora</button>
      </div>
+     <MejorCategoria/>
+     <MejoresProductos/>
+     <InfoContacto/>
+     <InfoCafeteria/>
+
     </>
   )
 }
