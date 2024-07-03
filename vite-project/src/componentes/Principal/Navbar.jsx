@@ -5,9 +5,10 @@ export default function Navbar() {
   return (
     <navbar>
     <ul>
-        <li>
-            Inicio
-        </li>
+        <li>Inicio</li>
+        <li>Moca  chino</li>
+        <li>Café frio</li>
+        
     </ul>
     </navbar>
   )
