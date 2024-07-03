@@ -17,9 +17,14 @@ export default function Navbar() {
         <li>Expreso</li>
         <li>Postres</li>
         <li>Más</li>
-        <input type='text' placeholder='Buscar'/>
+        <input type='text' placeholder='Buscar..'/>
     </ul>
     </navbar>
+    <div>
+     <p>Café fresco</p>
+     <p>100% Natural</p>
+     <button >Comprar ahora</button>
+     </div>
     </>
   )
 }
