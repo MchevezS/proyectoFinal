@@ -34,6 +34,18 @@
       "nombre": "chevez",
       "correo": "saboriomichelle93@gmail.com",
       "clave": "123"
+    },
+    {
+      "id": "bb42",
+      "nombre": "michelle",
+      "correo": "saboriomichelle93@gmail.com",
+      "clave": "1212"
+    },
+    {
+      "id": "50f7",
+      "nombre": "fran",
+      "correo": "dasd@dasd",
+      "clave": "1212"
     }
   ],
   "productos": [
