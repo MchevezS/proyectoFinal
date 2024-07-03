@@ -8,7 +8,7 @@ export default function Navbar() {
         <li>Inicio</li>
         <li>Moca  chino</li>
         <li>Café frio</li>
-        
+        <li></li>
     </ul>
     </navbar>
   )
