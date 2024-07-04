@@ -3,11 +3,10 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import {RouterProvider, createBrowserRouter} from 'react-router-dom'
-import Login from './componentes/Login.jsx'
-import Registrarse from './componentes/Registrarse.jsx'
-import FormularioArticulos from './componentes/FormularioArticulos.jsx'
-import Navbar from './componentes/Principal/Navbar.jsx'
-
+import FormularioArticulos from './componentes/Principal/FormularioArticulos.jsx'
+import Navbar from './componentes/Principal/NavBar.jsx'
+import Registrarse from './componentes/Principal/Registrarse.jsx'
+import Login from './componentes/Principal/Login.jsx'
 
 const router = createBrowserRouter([
   {

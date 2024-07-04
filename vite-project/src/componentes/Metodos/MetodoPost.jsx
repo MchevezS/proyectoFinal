@@ -1,6 +1,3 @@
-
-
-
 async function MetodoPost(endpoint,obj) {
     try {
         const response = await fetch(" http://localhost:3001/"+endpoint+"/",{

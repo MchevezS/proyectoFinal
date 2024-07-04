@@ -1,6 +1,6 @@
 import {useState} from 'react'
-import {FormularioPost} from './Metodos/FormularioPost'
 import { useNavigate } from "react-router-dom"
+import { FormularioPost } from '../Metodos/FormularioPost'
 
 function FormularioArticulos() {
    const [producto, setProducto]= useState('')   // Aca les estoy dando un estado a cada uno de estos inputs
@@ -36,8 +36,8 @@ function FormularioArticulos() {
     }
   return (
 
-    <form>
-        <label>Nombre del producto</label>
+    <form className='d-flex flex-column w-25 mx-auto'>
+      <label>Nombre del producto</label>
       <input type='text' value={producto} placeholder='Nombre del producto' onChange={(e)=>setProducto(e.target.value)}/>
       <label>Descripcion del producto</label>
       <input type='Descripcion' value={descripcion} placeholder='Descrippcion del producto' onChange={(e)=>setDescripcion(e.target.value)}/>
@@ -45,7 +45,7 @@ function FormularioArticulos() {
       <input type='contador' value={precio} placeholder='Precio' onChange={(e)=>setPrecio(e.target.value)}/>
       {/* para que la persona agregue la imagen tiene que utilizar un input file */}
       <input type='file' value={imagen} placeholder='Inserta imagen' onChange={(e)=>setImegen(e.target.value)}/>
-      <button onClick={vacios}>Agregar productos</button>
+      <button className='btn btn-success' onClick={vacios}>Agregar productos</button>
 
     </form> 
 

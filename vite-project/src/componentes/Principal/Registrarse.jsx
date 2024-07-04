@@ -1,8 +1,7 @@
 import React from 'react'
 import {useState} from "react"
-import {MetodoPost} from "./Metodos/MetodoPost"
 import {useNavigate} from "react-router-dom"
-
+import { MetodoPost } from '../Metodos/MetodoPost'
 const Registrarse = ()=>{
     // cree estados para cada uno de los inputs
        const [inputNombre, setInputNombre]= useState('')
@@ -11,7 +10,6 @@ const Registrarse = ()=>{
        const [inputConfirmaClave, setInputConfirmaClave] = useState('')
        const navigate=useNavigate()
          
-
        /* Hice una funcion para el agregado de los usuarios, dentro de esta funcion llame al metodo post*/
        function agregarUsuarios () {
         

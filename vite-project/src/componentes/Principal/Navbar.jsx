@@ -3,8 +3,7 @@ import MejorCategoria from './MejorCategoria'
 import MejoresProductos from './MejoresProductos'
 import InfoContacto from './InfoContacto'
 import InfoCafeteria from './InfoCafeteria'
-export default function Navbar() {
-
+function Navbar() {
   return (<>
    <navbar>
         {/* icono de llamaada */} 
@@ -38,3 +37,4 @@ export default function Navbar() {
     </>
   )
 }
+export default Navbar

@@ -15,3 +15,4 @@ async function MetodoPut() {
         
     }
 }
+export {MetodoPut}

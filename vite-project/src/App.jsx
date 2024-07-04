@@ -1,10 +1,10 @@
 
 import {useState} from 'react'
 import './App.css'
-import Login from './componentes/Login'
-import Registrarse from './componentes/Registrarse'
-import FormularioArticulos from './componentes/FormularioArticulos'
-import Navbar from './componentes/Principal/Navbar'
+import Login from './componentes/Principal/Login'
+import Registrarse from './componentes/Principal/Registrarse'
+import FormularioArticulos from './componentes/Principal/FormularioArticulos'
+import Navbar from './componentes/Principal/NavBar'
 
 function App() {
   const [pagina, setPagina]=useState(false)

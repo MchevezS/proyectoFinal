@@ -1,5 +1,5 @@
 
-async function FormularioPost(...obj) {
+async function FormularioPost(obj) {
     try {
         const response = await fetch(" http://localhost:3001",{
             method: "POST",

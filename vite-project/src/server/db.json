@@ -46,13 +46,28 @@
       "nombre": "fran",
       "correo": "dasd@dasd",
       "clave": "1212"
+    },
+    {
+      "id": "7455",
+      "nombre": "A",
+      "correo": "A",
+      "clave": "A"
     }
   ],
   "productos": [
     {
       "id": "1",
-      "name": "John Doe",
-      "email": "john@example.com"
+      "nombre": "Café",
+      "tipo": "Negro",
+      "precio": 2000,
+      "descripcion": "CUALQUIER COSA"
+    },
+    {
+      "id": "1",
+      "nombre": "Café",
+      "tipo": "Mocha",
+      "precio": 2000,
+      "descripcion": "CUALQUIER COSA"
     }
   ]
 }
