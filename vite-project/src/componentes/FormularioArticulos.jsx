@@ -3,19 +3,19 @@ import {FormularioPost} from './Metodos/FormularioPost'
 import { useNavigate } from "react-router-dom"
 
 function FormularioArticulos() {
-   const [producto, setProducto]= useState('')
+   const [producto, setProducto]= useState('')   // Aca les estoy dando un estado a cada uno de estos inputs
    const [descripcion, setDescripcion] = useState('')
    const [ingredientes, setIngredientes] = useState('')
    const [precio, setPrecio] = useState ('')
    const [imagen, setImegen] = useState('')
    const navigate =useNavigate()
 
-    function guardaProducto () {
+    function guardaProducto () { //estoy guardando los productos con esos nombres.
       const productos = {producto:producto, informacion:descripcion, ingredientes:ingredientes, costo:precio, imagen:imagen}
         FormularioPost('productos',productos)
            navigate('/Navbar') // aqui tengo que agregar pagina principal de todos los productos
     }
-    const vacios =()=>{
+    const vacios =()=>{    // estoy validando para que la person escriba y no deje ningun espacio en blanco
       if (producto.trim()==="") {
         alert("inserta el noombre del producto")
       }

@@ -5,23 +5,29 @@ export default function MejorCategoria() {
      {/* voy a poner las mejores categorías y mejores productos, luegoo voy lo que hacer es darle una functiona caada
      categoría para que me salgan mas imagenes. */}
     <div>
-      <p>Mejores categorías <hr/> ____</p>
-      
+        <h2>Mejores categorías</h2> 
     </div>
-    <div> 
-    <p>Café Moca</p>
-    </div>
-    <div> 
-    <p>Expreso Americano</p>
-    </div>
-    <div> 
-    <p>Capuchino</p>
-     </div>
-     <div> 
-    <p>Postres</p>
-    </div>
-
-    
+    <th> 
+        <p>Café Moca</p>
+        <h4>_______</h4>
+        <h4>Ver mas</h4>
+    </th>
+    <th> 
+         <p>Expreso Americano</p>
+         <h4>_______</h4>
+         <h4>Ver mas</h4>
+    </th>
+    <th> 
+           <p>Capuchino</p>
+           <h4>_______</h4>
+           <h4>Ver mas</h4>
+     </th>
+     <th> 
+           <p>Postres</p>
+           <h4>_______</h4>
+           <h4>Ver mas</h4>
+    </th>
+     
     </>
   )
 }

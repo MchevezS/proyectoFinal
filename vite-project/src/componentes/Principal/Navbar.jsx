@@ -7,25 +7,27 @@ export default function Navbar() {
 
   return (<>
    <navbar>
-        {/* icono */}
-      <p>Soporte al cliente </p>
-        <p>255-686-4769</p>
-       <p>CAFETERÍA FWD-COSTA RICA</p>
+        {/* icono de llamaada */} 
+        <header>
+      <h4>Soporte al cliente </h4>  
+        <h4>255-686-4769</h4>
+       <h1>CAFETERÍA FWD-COSTA RICA</h1>
+       </header>
       </navbar>
     <navbar>
     <ul>
-        <li>Inicio</li>
-        <li>Moca Helado</li>
-        <li>Capuchino</li>
-        <li>Expreso</li>
-        <li>Postres</li>
-        <li>Más</li>
+        <th>Inicio</th>    
+        <th>Moca Helado</th>
+        <th>Capuchino</th>
+        <th>Expreso</th>
+        <th>Postres</th>
+        <th>Más</th>
         <input type='text' placeholder='Buscar..'/>
     </ul>
     </navbar>
     <div>
-     <p>Café fresco</p>
-     <p>100% Natural</p>
+     <h2>Café fresco</h2>
+     <h2>100% Natural</h2>
      <button >Comprar ahora</button>
      </div>
      <MejorCategoria/>
