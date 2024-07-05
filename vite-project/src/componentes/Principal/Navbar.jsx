@@ -33,7 +33,7 @@ function Navbar() {
      <MejoresProductos/>
      <InfoContacto/>
      <InfoCafeteria/>
-
+    
     </>
   )
 }
