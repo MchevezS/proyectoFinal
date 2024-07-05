@@ -1,7 +1,7 @@
 
 async function FormularioGet(endpoint,obj) {
     try {
-        const response = await fetch(" http://localhost:3001/"+endpoint+"/",{
+        const response = await fetch(" http://localhost:3001/"+endpoint+"/productos",{
             method: "GET",
             headers:{
                  "Content-type": "application/json; charset=UTF-8"

@@ -1,11 +1,11 @@
-async function MetodoPut() {
+async function MetodoPut(id) {
     try {
         const response = await fetch ("http://localhost:3001",{
-            method: "POST",
+            method: "PUT",
             headers:{
                  "Content-type": "application/json; charset=UTF-8"
             },
-            body:JSON.stringify()
+            body:JSON.stringify(id)
         })
         const datos = await response.json()
         console.log(datos);
