@@ -1,7 +1,7 @@
 // proyectoFinal\vite-project\src
 import {useState, useEffect} from "react"
 import {useNavigate} from "react-router-dom"
-import MetodoGet from "../Metodos/MetodoGet"
+import MetodoGet from "../fetchs/MetodoGet" //....
 const Login = ()=>{
     // cree estados para cada uno de los inputs
     const [usuario, setUsuario] = useState('')

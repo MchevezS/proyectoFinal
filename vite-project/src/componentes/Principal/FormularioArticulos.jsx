@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import { useNavigate } from "react-router-dom"
-import { FormularioPost } from '../Metodos/FormularioPost'
+import { FormularioPost } from '../fetchs/FormularioPost'
 
 function FormularioArticulos() {
    const [producto, setProducto]= useState('')   // Aca les estoy dando un estado a cada uno de estos inputs

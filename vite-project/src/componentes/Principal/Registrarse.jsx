@@ -1,7 +1,7 @@
 import React from 'react'
 import {useState} from "react"
 import {useNavigate} from "react-router-dom"
-import { MetodoPost } from '../Metodos/MetodoPost'
+import { MetodoPost } from '../fetchs/MetodoPost' // ..,
 const Registrarse = ()=>{
     // cree estados para cada uno de los inputs
        const [inputNombre, setInputNombre]= useState('')
