@@ -61,19 +61,6 @@
     }
   ],
   "productos": [
-    {
-      "id": "1",
-      "nombre": "Café",
-      "tipo": "Negro",
-      "precio": 2000,
-      "descripcion": "CUALQUIER COSA"
-    },
-    {
-      "id": "1",
-      "nombre": "Café",
-      "tipo": "Mocha",
-      "precio": 2000,
-      "descripcion": "CUALQUIER COSA"
-    }
+   
   ]
 }

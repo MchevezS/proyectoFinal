@@ -1,6 +1,6 @@
 import React from 'react'
 
- function Cards({nombre, precio, descripcion}) { //  estamos obteniendo los parametros del post 
+ function Cards({nombre, precio, descripcion, botonEliminar}) { //  estamos obteniendo los parametros del post 
   return (
     <div>
       <h1>{nombre}</h1>

@@ -1,7 +1,8 @@
 import React from 'react'
 
 export default function MejorCategoria() {
-  return (<>
+  return (
+  <>
      {/* voy a poner las mejores categorías y mejores productos, luegoo voy lo que hacer es darle una functiona caada
      categoría para que me salgan mas imagenes. */}
     <div>

@@ -1,8 +1,6 @@
 import React from 'react'
-import MejorCategoria from './MejorCategoria'
-import MejoresProductos from './MejoresProductos'
-import InfoContacto from './InfoContacto'
-import InfoCafeteria from './InfoCafeteria'
+
+
 function Navbar() {
   return (<>
    <navbar>
@@ -14,7 +12,7 @@ function Navbar() {
        </header>
       </navbar>
     <navbar>
-    <ul>
+    <td>
         <th>Inicio</th>    
         <th>Moca Helado</th>
         <th>Capuchino</th>
@@ -22,17 +20,13 @@ function Navbar() {
         <th>Postres</th>
         <th>Más</th>
         <input type='text' placeholder='Buscar..'/>
-    </ul>
+    </td>
     </navbar>
     <div>
      <h2>Café fresco</h2>
      <h2>100% Natural</h2>
      <button >Comprar ahora</button>
      </div>
-     <MejorCategoria/>
-     <MejoresProductos/>
-     <InfoContacto/>
-     <InfoCafeteria/>
     
     </>
   )

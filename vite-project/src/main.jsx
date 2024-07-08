@@ -7,7 +7,7 @@ import FormularioArticulos from './componentes/Principal/FormularioArticulos.jsx
 import Navbar from './componentes/Principal/NavBar.jsx'
 import Registrarse from './componentes/Principal/Registrarse.jsx'
 import Login from './componentes/Principal/Login.jsx'
-
+import Home from './paginas/Home.jsx'
 const router = createBrowserRouter([
   {
     path:"/",
@@ -26,8 +26,8 @@ const router = createBrowserRouter([
     element:<FormularioArticulos/>
   },
   {
-    path:"/Navbar",
-    element:<Navbar/>
+    path:"/Home",
+    element:<Home/>
   },
 
 ])
