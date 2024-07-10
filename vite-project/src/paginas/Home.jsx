@@ -8,15 +8,17 @@ import MejoresProductos from '../componentes/Principal/MejoresProductos'
 import InfoContacto from '../componentes/Principal/InfoContacto'
 import InfoCafeteria from '../componentes/Principal/InfoCafeteria'
 import Navbar from '../componentes/Principal/NavBar'
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
+import BarraBusqueda from '../componentes/Principal/BarraBusqueda'
  
 const Home = () => {
-    const [data, setaData] = useState([])
-    
+    const [data, setData] = useState([])
+    const dataRef = useRef([])
     async function producto() { // estamos obteniendo los datos que se guardaron el en post y con el get voy a mostrarlos
         const data = await FormularioGet()
         console.log(data);
-        setaData(data)
+        setData(data)
+        dataRef.current = data
     }
     
     useEffect(()=>{
@@ -31,6 +33,7 @@ const Home = () => {
   return (
     <div>
     <Navbar></Navbar>
+    <BarraBusqueda  placeholder={"Buscar"} setData = {setData} dataRef= {dataRef}/> 
       <MejorCategoria/>
       <ContenedorCards botonEliminar={()=>{btnEliminar}} getCafe={data}/>
         <Cards/>

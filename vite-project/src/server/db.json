@@ -58,9 +58,20 @@
       "nombre": "moha",
       "correo": "mlsmdlkhsdk@gmail.com",
       "clave": "5555"
+    },
+    {
+      "id": "29d3",
+      "nombre": "michelle",
+      "correo": "chevez@gmail.com",
+      "clave": "1212"
     }
   ],
   "productos": [
-   
+    {
+      "id": "7d2d"
+    },
+    {
+      "id": "3464"
+    }
   ]
 }
