@@ -64,6 +64,12 @@
       "nombre": "michelle",
       "correo": "chevez@gmail.com",
       "clave": "1212"
+    },
+    {
+      "id": "5d4d",
+      "nombre": "michelle",
+      "correo": "saboriomichelle93@gmail.com",
+      "clave": "2525"
     }
   ],
   "productos": [
@@ -72,6 +78,13 @@
     },
     {
       "id": "3464"
+    },
+    {
+      "id": "2b24",
+      "informacion": "rico, 100 natural",
+      "ingredientes": "cafe",
+      "costo": "800",
+      "imagen": ""
     }
   ]
 }

@@ -1,4 +1,3 @@
-
 import ContenedorCards from '../componentes/Principal/ContenedorCards'
 import { FormularioDelete } from '../componentes/fetchs/FormularioDelete'
 import { FormularioGet } from '../componentes/fetchs/FormularioGet'
