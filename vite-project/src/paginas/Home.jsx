@@ -1,3 +1,7 @@
+
+
+
+
 import ContenedorCards from '../componentes/Principal/ContenedorCards'
 import { FormularioDelete } from '../componentes/fetchs/FormularioDelete'
 import { FormularioGet } from '../componentes/fetchs/FormularioGet'
@@ -9,7 +13,8 @@ import InfoCafeteria from '../componentes/Principal/InfoCafeteria'
 import Navbar from '../componentes/Principal/NavBar'
 import React, { useEffect, useRef, useState } from 'react'
 import BarraBusqueda from '../componentes/Principal/BarraBusqueda'
- 
+import '/src/index.css'
+
 const Home = () => {
     const [data, setData] = useState([])
     const dataRef = useRef([])
@@ -37,6 +42,7 @@ const Home = () => {
       <ContenedorCards botonEliminar={()=>{btnEliminar}} getCafe={data}/>
         <Cards/>
        <MejoresProductos/>
+       <Carousel/>
      <InfoContacto/>
      <InfoCafeteria/>
     </div>

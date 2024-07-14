@@ -13,9 +13,9 @@ const ContenedorCards = ({getCafe, botonEliminar}) => {
       {getCafe.map(cafe =>(
         <Cards
           key={cafe.id}
-          nombre={cafe.informacion}
+          nombre={cafe.producto}
           precio={cafe.costo}
-          descripcion={cafe.ingredientes}
+          descripcion={cafe.descripcion}
           botonEliminar ={()=>elimina(cafe.id)}
         />
       ) )}

@@ -54,9 +54,9 @@ const Login = ()=>{
         <>
             <h1>Bienvenidos</h1>
 
-            <input type="usuario" placeholder= "Nmbre de usuario" onChange={(e)=>setUsuario(e.target.value)}/>
-            <input type="password" placeholder= "Password" onChange={(e)=>setPasssword(e.target.value)}/>
-            <button onClick={validar}>Iniciar sesión</button>
+            <input  className="inpUsuario" type="usuario" placeholder= "Nmbre de usuario" onChange={(e)=>setUsuario(e.target.value)}/>
+            <input  className="inpPass" type="password" placeholder= "Password" onChange={(e)=>setPasssword(e.target.value)}/>
+            <button className="btnIncio" onClick={validar}>Iniciar sesión</button>
 
              <a onClick={()=>{
                 navigate("/Registro")

@@ -5,6 +5,7 @@ import Login from './componentes/Principal/Login'
 import Registrarse from './componentes/Principal/Registrarse'
 import FormularioArticulos from './componentes/Principal/FormularioArticulos'
 import Navbar from './componentes/Principal/NavBar'
+import "/src/index.css"
 
 function App() {
   const [pagina, setPagina]=useState(false)
