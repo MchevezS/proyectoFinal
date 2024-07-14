@@ -2,6 +2,7 @@
 import {useState, useEffect} from "react"
 import {useNavigate} from "react-router-dom"
 import MetodoGet from "../fetchs/MetodoGet" //....
+import '/src/Estilos/LoginStyles.css'
 const Login = ()=>{
     // cree estados para cada uno de los inputs
     const [usuario, setUsuario] = useState('')
@@ -52,13 +53,12 @@ const Login = ()=>{
       }
     return(
         <>
-            <h1>Bienvenidos</h1>
-
-            <input  className="inpUsuario" type="usuario" placeholder= "Nmbre de usuario" onChange={(e)=>setUsuario(e.target.value)}/>
-            <input  className="inpPass" type="password" placeholder= "Password" onChange={(e)=>setPasssword(e.target.value)}/>
+            <h1 className="titulo">Bienvenidos!</h1>
+            <input  className="inpUsuario" type="usuario" placeholder= "Nmbre de usuario" onChange={(e)=>setUsuario(e.target.value)}/> <br></br>
+            <input  className="inpPass" type="password" placeholder= "Password" onChange={(e)=>setPasssword(e.target.value)}/> <br></br>
             <button className="btnIncio" onClick={validar}>Iniciar sesión</button>
 
-             <a onClick={()=>{
+             <a className="noCuenta" onClick={()=>{
                 navigate("/Registro")
              }}>No tienes cuenta?</a>
 

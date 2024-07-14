@@ -46,11 +46,11 @@ const Registrarse = ()=>{
 
          <h1> Registrate! </h1>
          {/* En cada input hice la funcion del onChange, para mantener el contenido de los inputs actualizados, y eso hace que me los mande al API  */}
-         <input type="text" value={inputNombre} placeholder="Nombre completo" onChange={(e)=>setInputNombre(e.target.value)}/>
-         <input type="email" value={inputCorreo} placeholder="Correo electronico" onChange={(e)=>setInputCorreo(e.target.value)}/>
-         <input type="password" value={inputClave} placeholder="Ingrese su clave" onChange={(e)=>setInputClave(e.target.value)}/>
-         <input type="password" value={inputConfirmaClave} placeholder="Confirme su clave" onChange={(e)=>setInputConfirmaClave(e.target.value)}/>
-         <button onClick={validacionesInput}>Registrarse.</button>
+         <input className='inputNombre' type="text" value={inputNombre} placeholder="Nombre completo" onChange={(e)=>setInputNombre(e.target.value)}/>
+         <input className='inputCorreo' type="email" value={inputCorreo} placeholder="Correo electronico" onChange={(e)=>setInputCorreo(e.target.value)}/>
+         <input className='inputClave' type="password" value={inputClave} placeholder="Ingrese su clave" onChange={(e)=>setInputClave(e.target.value)}/>
+         <input className='inputConfirmaClave' type="password" value={inputConfirmaClave} placeholder="Confirme su clave" onChange={(e)=>setInputConfirmaClave(e.target.value)}/>
+         <button className='btnRegistarse' onClick={validacionesInput}>Registrarse.</button>
          <a onClick={()=>{
              navigate("/")
          }}>Ya tiene una Cuena?</a>

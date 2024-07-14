@@ -1,0 +1,31 @@
+.titulo{
+   font-style: oblique;
+   align-items: center;
+   margin-top: 250px;
+   margin-left: 600px;
+
+}
+.inpUsuario{
+   margin-top: 150px;
+   margin-left: 550px;
+
+}
+.inpPass{
+   margin-top: 20px;
+   margin-left: 550px;
+
+}
+.btnIncio{
+    margin-top: 20px;
+   margin-left: 550px;
+   padding-bottom: 5px;
+   color: white;
+   background-color: rgb(231, 164, 83);
+}
+.noCuenta{
+    margin-left: 30px;
+    font-size: large;
+    font-size: 20px;
+    color:  rgb(231, 164, 83);
+   
+}
