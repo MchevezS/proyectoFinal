@@ -1,0 +1,63 @@
+.contenedorCuadro{
+    background-color: rgb(177, 214, 229);
+    margin-top: 270px;
+    margin-left: 500px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 30px;
+    align-content: center;
+    margin-left: 550px;
+}
+
+.tituloR{
+color: rgb(16, 16, 16);
+margin-top: -70px;
+margin-left: 300px;
+font-style: oblique;
+font-size: 50px;
+
+}
+
+.inputNombre{
+    margin-top: 20px;
+    margin-left:  400px;
+    align-items: center;
+    border-radius: 15px;
+
+}
+.inputCorreo{
+    margin-top: 20px;
+    margin-left:  400px;
+    align-items: center;
+    border-radius: 15px;
+
+}
+.inputClave{
+    margin-top: 20px;
+    margin-left:  400px;
+    align-items: center;
+    border-radius: 15px;
+
+}
+.inputConfirmaClave{
+    margin-top: 20px;
+    margin-left:  400px;
+    align-items: center;
+    border-radius: 15px;
+
+}
+.btnRegistarse{
+    margin-top: 35px;
+    margin-left: 340px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(190, 90, 197);
+}
+.tieneCuenta{
+    margin-left: 30px;
+    font-size: large;
+    font-size: 20px;
+    color: black;
+
+}

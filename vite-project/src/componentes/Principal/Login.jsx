@@ -53,15 +53,17 @@ const Login = ()=>{
       }
     return(
         <>
+          <div className="cuadrito">
             <h1 className="titulo">Bienvenidos!</h1>
             <input  className="inpUsuario" type="usuario" placeholder= "Nmbre de usuario" onChange={(e)=>setUsuario(e.target.value)}/> <br></br>
             <input  className="inpPass" type="password" placeholder= "Password" onChange={(e)=>setPasssword(e.target.value)}/> <br></br>
             <button className="btnIncio" onClick={validar}>Iniciar sesión</button>
-
              <a className="noCuenta" onClick={()=>{
                 navigate("/Registro")
              }}>No tienes cuenta?</a>
-
+             <br></br>
+             <br></br>
+         </div>
             
         </>
     )

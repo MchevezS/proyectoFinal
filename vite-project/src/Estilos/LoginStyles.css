@@ -1,25 +1,28 @@
 .titulo{
+    margin-left: 500px;
    font-style: oblique;
-   align-items: center;
-   margin-top: 250px;
-   margin-left: 600px;
+   color: white;
 
 }
 .inpUsuario{
-   margin-top: 150px;
-   margin-left: 550px;
+   margin-top: 20px;
+   margin-left:  400px;
+   align-items: center;
+   border-radius: 20px;
 
 }
 .inpPass{
    margin-top: 20px;
-   margin-left: 550px;
+   margin-left: 400px;
+   border-radius: 20px;
 
 }
 .btnIncio{
     margin-top: 20px;
-   margin-left: 550px;
+   margin-left: 400px;
    padding-bottom: 5px;
    color: white;
+   border-radius: 20px;
    background-color: rgb(231, 164, 83);
 }
 .noCuenta{
@@ -28,4 +31,15 @@
     font-size: 20px;
     color:  rgb(231, 164, 83);
    
+}
+.cuadrito{
+    background-color: black;
+    margin-top: 270px;
+    margin-left: 500px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 30px;
+    align-content: center;
+    margin-left: 550px;
+    
 }
