@@ -22,3 +22,54 @@
     margin-left: 620px;
     height: 100px;
 }
+.inicio{
+    margin-left: 80px;
+    color: aliceblue;
+    font-size: larger;
+    font-size: 25px;
+}
+.moca{
+    margin-left: -150px;
+    color: aliceblue;
+    font-size: larger;
+    font-size: 25px;
+}
+.capuchino{
+    margin-left: -160px;
+    color: aliceblue;
+    font-size: larger;
+    font-size: 25px;
+}
+.expreso{
+    margin-left: -160px;
+    color: aliceblue;
+    font-size: larger;
+    font-size: 25px;
+}
+.postres{
+    margin-left: -160px;
+    color: aliceblue;
+    font-size: larger;
+    font-size: 25px;
+}
+.mas{
+    margin-left: -160px;
+    color: aliceblue;
+    font-size: larger;
+    font-size: 25px;
+}
+.inputBuscar{
+    margin-left: -160px;
+    color: aliceblue;
+    font-size: larger;
+    font-size: 25px;
+}
+.btnBuscar{
+    margin-left: -299px;
+    width: 60px;
+    height: 47px;
+}
+.infCafe{
+    margin-left: 200px;
+    margin-top: 90px;
+}

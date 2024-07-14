@@ -7,9 +7,9 @@ function Navbar() {
         {/* icono de llamaada */} 
        
        <h1 className='titulo'>CAFETERÍA FWD-COSTA RICA</h1>
-      <div className='textTele'>
+        <div className='textTele'>
       <h4 className='textLlamada'>Soporte al cliente </h4>  
-        <h4 className='telefono'>255-686-4769</h4>
+      <h4 className='telefono'>255-686-4769</h4>
         </div>
       </navbar>
     <navbar>
@@ -20,13 +20,13 @@ function Navbar() {
         <th className='expreso'>Expreso</th>
         <th className='postres'>Postres</th>
         <th className='mas'>Más</th>
-        <input type='text' placeholder='Buscar..'/>
+        <input className='inputBuscar' type='text' placeholder='Buscar..'/>
+        <button className='btnBuscar'>🔍</button>
         </header>
     </navbar>
-    <div>
+    <div className='infCafe'>     {/* voy a ponerle unaa imagen de fondo */}
      <h2 className='cafeFrio'>Café fresco</h2>
      <h2 className='100natural'>100% Natural</h2>
-     <button className='btnCompar'>Comprar ahora</button>
      </div>
     
     </>

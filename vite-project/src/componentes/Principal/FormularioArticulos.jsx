@@ -13,17 +13,20 @@ function FormularioArticulos() {
 
     function guardaProducto () { //estoy guardando los productos con esos nombres.
       const productos = {
+         nombre:producto,
          informacion:descripcion,
           ingredientes:ingredientes,
            costo:precio,
             imagen:imagen}
         FormularioPost(productos)
            navigate('/Home') // aqui tengo que agregar pagina principal de todos los productos
+          
     }
     const vacios =async()=>{    // estoy validando para que la person escriba y no deje ningun espacio en blanco
       if (producto.trim()==="") {
         alert("inserta el noombre del producto")
-        return
+       console.log(vacios);
+       return
       }
       else if (descripcion.trim()==="") {
         alert("Describe tu producto")
@@ -43,7 +46,6 @@ function FormularioArticulos() {
           precio:precio,
           descripcion:descripcion
         })
-        //  guardaProducto()
         vacios()
       }
 
