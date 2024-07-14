@@ -5,6 +5,7 @@ import { FormularioGet } from '../fetchs/FormularioGet'
 import Swal from 'sweetalert2'
 import { mostrarAlerta } from '../../JS/SweetAlert'
 import "/src/index.css"
+import '/src/Estilos/FormularioProducto.css'
 
 function FormularioArticulos() {
    const [producto, setProducto]= useState([])   // Aca les estoy dando un estado a cada uno de estos inputs
@@ -44,9 +45,7 @@ function FormularioArticulos() {
   return (
 
     <form className='d-flex flex-column w-25 mx-auto'>
-      <label>Nombre del producto</label>
       <input type='text' value={producto} placeholder='Nombre del producto' onChange={(e)=>setProducto(e.target.value)}/>
-      <label>Descripcion del producto</label>
       <input type='Descripcion' value={descripcion} placeholder='Descrippcion del producto' onChange={(e)=>setDescripcion(e.target.value)}/>
       <input type='contador' value={precio} placeholder='Precio' onChange={(e)=>setPrecio(e.target.value)}/>
       {/* para que la persona agregue la imagen tiene que utilizar un input file */}
