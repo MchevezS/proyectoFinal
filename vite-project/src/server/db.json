@@ -22,21 +22,15 @@
       "nombre": "michelle",
       "correo": "saboriomichelle93@gmail.com",
       "clave": "1414"
+    },
+    {
+      "id": "7eaf",
+      "nombre": "michelle",
+      "correo": "saboriomichelle93@gmail.com",
+      "clave": "1515"
     }
   ],
   "productos": [
-    {
-      "id": "9eba"
-    },
-    {
-      "id": "f321"
-    },
-    {
-      "id": "2e08",
-      "nombre": [],
-      "informacion": "",
-      "costo": "",
-      "imagen": ""
-    }
+    
   ]
 }

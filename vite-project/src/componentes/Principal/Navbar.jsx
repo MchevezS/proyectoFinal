@@ -6,7 +6,7 @@ function Navbar() {
    <navbar>
         {/* icono de llamaada */} 
        
-       <h1 className='titulo'>CAFETERÍA FWD-COSTA RICA</h1>
+       <h1 className='tituloc'>CAFETERÍA FWD-COSTA RICA</h1>
         <div className='textTele'>
       <h4 className='textLlamada'>Soporte al cliente </h4>  
       <h4 className='telefono'>255-686-4769</h4>

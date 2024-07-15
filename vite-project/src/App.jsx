@@ -18,8 +18,6 @@ function App() {
   return (
     <>
    { pagina?<Registrarse cambioPG={cambioPag}/>:<Login cambioPG={cambioPag}/>}
-      <h1>holaa</h1>
-      <Navbar></Navbar>
 
     </>
   )

@@ -1,7 +1,4 @@
 
-
-
-
 import ContenedorCards from '../componentes/Principal/ContenedorCards'
 import { FormularioDelete } from '../componentes/fetchs/FormularioDelete'
 import { FormularioGet } from '../componentes/fetchs/FormularioGet'
@@ -40,9 +37,8 @@ const Home = () => {
     <BarraBusqueda  placeholder={"Buscar"} setData = {setData} dataRef= {dataRef}/> 
       <MejorCategoria/>
       <ContenedorCards botonEliminar={()=>{btnEliminar}} getCafe={data}/>
-        <Cards/>
        <MejoresProductos/>
-       <Carousel/>
+        {/* <Carousel/>  */}
      <InfoContacto/>
      <InfoCafeteria/>
     </div>

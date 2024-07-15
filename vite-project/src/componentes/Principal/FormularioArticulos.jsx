@@ -19,7 +19,8 @@ function FormularioArticulos() {
          nombre:producto,
          informacion:descripcion,
            costo:precio,
-            imagen:imagen}
+            imagen:imagen
+          }
         FormularioPost(productos)
            navigate('/Home') // aqui tengo que agregar pagina principal de todos los productos
     }
@@ -43,15 +44,15 @@ function FormularioArticulos() {
   
     }
   return (
-
+      
     <form className='d-flex flex-column w-25 mx-auto'>
-      <input type='text' value={producto} placeholder='Nombre del producto' onChange={(e)=>setProducto(e.target.value)}/>
-      <input type='Descripcion' value={descripcion} placeholder='Descrippcion del producto' onChange={(e)=>setDescripcion(e.target.value)}/>
-      <input type='contador' value={precio} placeholder='Precio' onChange={(e)=>setPrecio(e.target.value)}/>
+       <h1 className='tituloProducto'>Ingresa tus productos </h1>
+      <input className='nombreProducto' type='text' value={producto} placeholder='Nombre del producto' onChange={(e)=>setProducto(e.target.value)}/>
+      <input className='descripcion' type='Descripcion' value={descripcion} placeholder='Descrippcion del producto' onChange={(e)=>setDescripcion(e.target.value)}/>
+      <input className='precio' type='contador' value={precio} placeholder='Precio' onChange={(e)=>setPrecio(e.target.value)}/>
       {/* para que la persona agregue la imagen tiene que utilizar un input file */}
-      <input type='file' value={imagen} placeholder='Inserta imagen' onChange={(e)=>setImegen(e.target.value)}/>
+      <input className='imagen' type='file' value={imagen} placeholder='Inserta imagen' onChange={(e)=>setImegen(e.target.value)}/>
       <button className='btn btn-success' onClick={Validarvacios}>Agregar productos</button>
-
     </form> 
 
   )

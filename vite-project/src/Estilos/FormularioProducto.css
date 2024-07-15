@@ -1,0 +1,35 @@
+.tituloProducto{
+    font-weight: 600;
+    margin-top: 90px;
+   font-size:55px;
+}
+.nombreProducto{
+  width: 560px;
+  border-radius: 20px;
+}
+.descripcion{
+    margin-top: 20px;
+    width: 560px;
+    border-radius: 20px;
+}  
+.precio{
+    margin-top: 20px;
+    width: 560px;
+    border-radius: 20px;
+    border-color: rgb(17, 17, 17);
+}
+.imagen{
+    margin-top: 20px;
+    width: 560px;
+   
+}
+.btn{
+    margin-top: 20px;
+    width: 560px;
+    border-radius: 20px;
+
+}
+.d-flex{
+    background-image: url("vite-project/src/Imagenes/fondo formulario.jpg");
+    margin-top: 150px;
+}
