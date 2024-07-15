@@ -27,16 +27,18 @@ function FormularioArticulos() {
     const Validarvacios = async()=>{    // estoy validando para que la person escriba y no deje ningun espacio en blanco
       if (producto.trim()==="" || precio.trim()==="" || descripcion.trim()==="" || imagen.trim()===""){
         mostrarAlerta("error","Llenar espacios vacios")
-        alert("Completa los espacios vacios")
+        
         return
       }else{
         await FormularioPost ({
-          nombre: producto,                           // no se guardan en la API
+          nombre: producto,                          
           costo:precio,
           informacion:descripcion,
           imagen:imagen
         })
        guardaProducto()
+       mostrarAlerta("success","El producto fue agregado de manera exitosa")
+       navigate("/home")
       }
 
 
@@ -53,7 +55,7 @@ function FormularioArticulos() {
       <input className='precio' type='contador' value={precio} placeholder='Precio' onChange={(e)=>setPrecio(e.target.value)}/>
       {/* para que la persona agregue la imagen tiene que utilizar un input file */}
       <input className='imagen' type='file' value={imagen} placeholder='Inserta imagen' onChange={(e)=>setImegen(e.target.value)}/>
-      <button className='btn btn-success' onClick={Validarvacios}>Agregar productos</button>
+      <button type='button' className='btn btn-success' onClick={Validarvacios}>Agregar productos</button>
     </form> 
 
   )

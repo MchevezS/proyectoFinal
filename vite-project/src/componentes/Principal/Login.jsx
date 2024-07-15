@@ -3,6 +3,7 @@ import {useState, useEffect} from "react"
 import {useNavigate} from "react-router-dom"
 import MetodoGet from "../fetchs/MetodoGet" //....
 import '/src/Estilos/LoginStyles.css'
+import { mostrarAlerta } from "../../JS/SweetAlert"
 const Login = ()=>{
     // cree estados para cada uno de los inputs
     const [usuario, setUsuario] = useState('')
@@ -31,8 +32,10 @@ const Login = ()=>{
             validaInputs()
             navigate("/Productos") // despues voy a poner para que me tire a la pagina principal.
             alert('entra pag')
+            mostrarAlerta("success","Te has logueado de manera exitosa")
         }else{
             alert('incorrecto')
+          
         }
 
     }
@@ -40,14 +43,15 @@ const Login = ()=>{
       //   validaciones para los inputs/ las alertas las tengo que cambiar
       function validaInputs() {
         if (usuario.trim()==="") {
-            alert("Por favor llene los campos ")
+          mostrarAlerta("error","Llenar espacios vacios")
         }
         if (password.trim()=== "") {
-            alert("Por favor llene los campos")
+          mostrarAlerta("error","Llenar espacios vacios")
             console.log(validaInputs);
         }else{
             // MetodoPost()
             // // AgregarUsuario(Registrarse)
+            mostrarAlerta("success","Te has logueado de manera exitosa")
         }
         
       }

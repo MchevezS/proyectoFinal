@@ -2,6 +2,7 @@ import React from 'react'
 import {useState} from "react"
 import {useNavigate} from "react-router-dom"
 import { MetodoPost } from '../fetchs/MetodoPost' // ..,
+import { mostrarAlerta } from "../../JS/SweetAlert"
 import '/src/Estilos/RegistrarseStyles.css'
 
 
@@ -25,22 +26,23 @@ const Registrarse = ()=>{
         //   validaciones para los inputs/ las alertas las tengo que cambiar
         const validacionesInput =()=>{
             if (inputNombre.trim()== "") {
-                alert("nombre vacio")
+                mostrarAlerta("error","Llenar su nombre")
             }
             else if(inputCorreo.trim()==="" ) {
-                alert("ingrese su correo")
+                mostrarAlerta("error","Ingrese su correo")
             }
             else if (inputClave.trim()=== "") {
-                alert("ingrese su clave")
+                mostrarAlerta("error","Ingrese su clave")
             } 
             else if (inputConfirmaClave.trim()=== "") {
-                alert("ingrese su clave para confimar ")
+                mostrarAlerta("error","Confirme que su clave sea la correcta")
             }
                 // valide que las claves tienen que ser igual
             else if (!(inputConfirmaClave === inputClave)) {
-                alert("Su clave no coincide")
+                mostrarAlerta("error","Confirme que su clave sea la correcta")
             }else{
                 agregarUsuarios()
+                mostrarAlerta("success","Te has registro de manera exitosa")
             }
         }
         

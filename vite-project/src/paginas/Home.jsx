@@ -13,7 +13,7 @@ import BarraBusqueda from '../componentes/Principal/BarraBusqueda'
 import '/src/index.css'
 
 const Home = () => {
-    const [data, setData] = useState([])
+      const [data, setData] = useState([])
     const dataRef = useRef([])
     async function producto() { // estamos obteniendo los datos que se guardaron el en post y con el get voy a mostrarlos
         const data = await FormularioGet()
@@ -21,14 +21,15 @@ const Home = () => {
         setData(data)
         dataRef.current = data
     }
-    
+
     useEffect(()=>{
         producto()
-    },[])
+    },[data])
 
 
     async function btnEliminar(id) {
         await FormularioDelete(id)
+        
     }
 
   return (

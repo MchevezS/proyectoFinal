@@ -35,6 +35,11 @@ function Navbar() {
         <a className='postres' onClick={()=>{
             navigate("/Postres")
            }}>Postres</a>
+        </th> 
+        <th>
+        <a className='postres' onClick={()=>{
+            navigate("/productos")
+           }}>Agregar un nuevo producto</a>
         </th>
         </navbar>
    

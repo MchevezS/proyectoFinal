@@ -34,9 +34,13 @@
       "nombre": "mich",
       "correo": "saboriomichelle93@gmail.com",
       "clave": "1515"
+    },
+    {
+      "id": "2d23",
+      "nombre": "michelle",
+      "correo": "saboriomichelle93@gmail.com",
+      "clave": "1515"
     }
   ],
-  "productos": [
-    
-  ]
+  "productos": []
 }
