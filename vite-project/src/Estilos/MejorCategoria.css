@@ -8,24 +8,77 @@
     font-size: larger;
     font-size: 29px;
     font-weight: 300px;
-    margin-left: 130px;
-    margin-top: 50px;
+    margin-left: 160px;
+    margin-top: 70px;
 }
-.expreso{
+.cafeLinea1{
+    margin-top: -20px;
+    margin-left: 180px;
+}
+.verMas1{
+    margin-left: 180px;
+}
+.mocaImagen{
+    width: 350px;
+    margin-left: 110px;
+    margin-top: -150px;
+    opacity: 0.6;
+}
+.imagenExpreso{
+    width: 350px;
+    margin-left: 90px;
+    margin-top: -130px;
+    opacity: 0.4;
+    margin-top: -170px;
+}
+.expreso1{
     font-size: 29px;
     font-weight: 300px;
-    margin-left: 450px;
+    margin-left: 130px;
+    margin-top: -150px;
     
+}
+
+.cafeLinea2{
+    margin-left: 200px;
+}
+.verMas2{
+    margin-left: 190px;
+}
+.imagenCapuchino{
+    width: 350px;
+    margin-left: 90px;
+    margin-top: -130px;
+    opacity: 0.4;
+    margin-top: -170px;
 }
 .capuchino1{
     font-size: 29px;
     font-weight: 300px;
-    margin-left: 450px;
+    margin-left: 200px;
     
 
+}
+.cafeLinea3{
+    margin-left: 240px;
+}
+.verMas3{
+    margin-left: 230px;
+}
+.imagenPostre{
+    width: 350px;
+    margin-left: 70px;
+    opacity: 0.4;
+    margin-top: -170px;
 }
 .postre{
     font-size: 29px;
     font-weight: 300px;
-    margin-left: 450px;
+    margin-left: 200px;
+}
+.cafeLinea4{
+    margin-left: 210px;
+}
+.verMas4{
+    margin-left: 210px;
 }
