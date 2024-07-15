@@ -1,7 +1,9 @@
 import React from 'react'
 import '/src/Navbar.css'
+import { useNavigate } from 'react-router-dom'
 
 function Navbar() {
+    const navigate =useNavigate()
   return (<>
    <navbar>
         {/* icono de llamaada */} 
@@ -12,19 +14,32 @@ function Navbar() {
       <h4 className='telefono'>255-686-4769</h4>
         </div>
       </navbar>
-    <navbar>
-    <header className='navbar'>
-        <th className='inicio'>Inicio</th>    
-        <th className='moca'>Moca Helado</th>
-        <th className='capuchino'>Capuchino</th>
-        <th className='expreso'>Expreso</th>
-        <th className='postres'>Postres</th>
-        <th className='mas'>Más</th>
-        <input className='inputBuscar' type='text' placeholder='Buscar..'/>
-        <button className='btnBuscar'>🔍</button>
-        </header>
-    </navbar>
-    <div className='infCafe'>     {/* voy a ponerle unaa imagen de fondo */}
+    
+    <navbar className='navbar'>   
+        <th>
+        <a className='moca' onClick={()=>{
+            navigate("/Moca")
+           }}>Moca Helado</a>
+        </th>
+        <th >
+        <a className='capuchino' onClick={()=>{
+            navigate("/Capuchino")
+           }}>Capuchino </a>
+        </th>
+        <th>
+        <a className='expreso' onClick={()=>{
+            navigate("/Expreso")
+           }}>Expreso </a>
+         </th>
+        <th>
+        <a className='postres' onClick={()=>{
+            navigate("/Postres")
+           }}>Postres</a>
+        </th>
+        </navbar>
+   
+    <div className='infCafe' >     {/* voy a ponerle unaa imagen de fondo */}
+     <img src='/src/Imagenes/Mocahelado1.jpg'></img>
      <h2 className='cafeFrio'>Café fresco</h2>
      <h2 className='100natural'>100% Natural</h2>
      </div>

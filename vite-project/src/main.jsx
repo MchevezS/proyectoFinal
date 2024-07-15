@@ -8,6 +8,7 @@ import Navbar from './componentes/Principal/NavBar.jsx'
 import Registrarse from './componentes/Principal/Registrarse.jsx'
 import Login from './componentes/Principal/Login.jsx'
 import Home from './paginas/Home.jsx'
+import Moca from '/src/JS/Moca.jsx'
 const router = createBrowserRouter([
   {
     path:"/",
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
     path:"/Home",
     element:<Home/>
   },
+   {
+     path:"/Moca",
+    element:<Moca/>
+   },
 
 ])
 
