@@ -20,7 +20,7 @@ const Expreso = () => {
          <p>Precio: 1500 Colones</p>
     </div>
     <div className='cuadroExpreso'>
-       <img src='./src/Imagenes/expreso22.jpg'></img> 
+       <img src='./src/Imagenes/expreso 22.jpg'></img> 
          <p>Precio: 1500 Colones</p>
     </div>
     </div>

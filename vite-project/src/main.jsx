@@ -9,6 +9,10 @@ import Registrarse from './componentes/Principal/Registrarse.jsx'
 import Login from './componentes/Principal/Login.jsx'
 import Home from './paginas/Home.jsx'
 import Moca from '/src/JS/Moca.jsx'
+import Capuchino from './JS/Capuchino.jsx'
+import Expreso from './JS/Expreso.jsx'
+import Postres from './JS/Postres.jsx'
+
 const router = createBrowserRouter([
   {
     path:"/",
@@ -34,6 +38,21 @@ const router = createBrowserRouter([
      path:"/Moca",
     element:<Moca/>
    },
+   {
+    path:"/Capuchino",
+   element:<Capuchino/>
+  },
+  {
+    path:"/Expreso",
+   element:<Expreso/>
+  },
+  {
+    path:"/Postres",
+   element:<Postres/>
+  },
+
+
+
 
 ])
 

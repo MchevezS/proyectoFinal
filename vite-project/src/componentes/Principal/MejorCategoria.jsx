@@ -18,7 +18,7 @@ export default function MejorCategoria() {
         <p className='cafeMoca' >Café Moca</p>
         <h4 className='cafeLinea1'>_______</h4>
         <a className='verMas1' onClick={()=>{
-            navigate("/MocaChino")
+            navigate("/Moca")
            }}>Ver mas</a>
         <img className='mocaImagen' src='./src/Imagenes/OIP.jpg'></img>
     </th>
