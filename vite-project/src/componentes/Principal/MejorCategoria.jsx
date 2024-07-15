@@ -23,7 +23,7 @@ export default function MejorCategoria() {
         <img className='mocaImagen' src='./src/Imagenes/OIP.jpg'></img>
     </th>
     <th> 
-         <p className='expreso1'>Expreso Americano</p>
+         <p className='expreso111'>Expreso Americano</p>
          <h4 className='cafeLinea2'>_______</h4>
          <a className='verMas2' onClick={()=>{
             navigate("/Expreso")
