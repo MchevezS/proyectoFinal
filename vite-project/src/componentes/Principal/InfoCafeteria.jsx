@@ -1,11 +1,13 @@
 import React from 'react'
-
+import '/src/Navbar.css'
 export default function InfoCafeteria() {
   return (
     <div>
-    <h1>Informacion</h1>
-    <div>
-        <p>Acerca de Nosotros</p> 
+    <th>
+    <h1 className='infoCafeteria1'>Informacion</h1>
+    
+    <div className='infoCafeteria'>
+        <h3>Acerca de Nosotros</h3> 
         <p>QUIÉNES SOMOS? <br/>
 Somos un equipo de personas que trabajamos para ofrecer exquisitos postres y cafés para los paladares más exigentes. 
 Orientamos nuestro trabajo a sobrepasar las expectativas de nuestros clientes, brindándoles productos de excelente calidad a un precio accesible y con un servicio de primera. 
@@ -27,7 +29,7 @@ la organización.</p>
        <p>Contactanos</p>
 
     </div>
-      
+    </th>
     </div>
   )
 }

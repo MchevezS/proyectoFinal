@@ -39,7 +39,8 @@ function Navbar() {
         </navbar>
    
     <div className='infCafe' >     {/* voy a ponerle unaa imagen de fondo */}
-     <img src='/src/Imagenes/Mocahelado1.jpg'></img>
+     <img className='imagen1' src='/src/Imagenes/Mocahelado1.jpg'></img>
+     <img className='imagen2' src='/src/Imagenes/expreso.jpg'></img>
      <h2 className='cafeFrio'>Café fresco</h2>
      <h2 className='100natural'>100% Natural</h2>
      </div>

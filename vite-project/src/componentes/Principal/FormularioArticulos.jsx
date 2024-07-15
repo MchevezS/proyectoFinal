@@ -27,6 +27,7 @@ function FormularioArticulos() {
     const Validarvacios = async()=>{    // estoy validando para que la person escriba y no deje ningun espacio en blanco
       if (producto.trim()==="" || precio.trim()==="" || descripcion.trim()==="" || imagen.trim()===""){
         mostrarAlerta("error","Llenar espacios vacios")
+        alert("Completa los espacios vacios")
         return
       }else{
         await FormularioPost ({

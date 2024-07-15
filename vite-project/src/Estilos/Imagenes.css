@@ -1,0 +1,65 @@
+.cuadroCapuchino{
+    width: 800px;
+    height: 400px;
+    background-color: antiquewhite;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.capuchino12{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.precio1{
+    font-size: 20px;
+    margin-left: 160px;
+}
+.caf{
+    margin-left: 600px;
+}
+.capuchino11{
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 80px;
+
+}
+.cuadroMoca{
+    width: 800px;
+    height: 400px;
+    background-color: antiquewhite;
+    margin-top: 40px;
+    margin-left: 50px;  
+}
+.imagenMoca{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.precio2{
+    font-size: 20px;
+    margin-left: 160px;
+}
+.cuadroExpreso{
+    width: 800px;
+    height: 400px;
+    background-color: antiquewhite;
+    margin-top: 40px;
+    margin-left: 50px;  
+}
+.precio3{
+    font-size: 20px;
+    margin-left: 160px;
+}
+.imagenExpreso{
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.POSTRES{
+    margin-left: 600px;
+} 
+.cuadroPostre{
+    width: 1000px;
+    height: 500px;
+    background-color: antiquewhite;
+    margin-top: 40px;
+
+}
