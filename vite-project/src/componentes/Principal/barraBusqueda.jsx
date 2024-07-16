@@ -23,14 +23,15 @@ const BarraBusqueda = ({placeholder, dataRef, setData}) => {
 
     };
       
- return (<>
-    {/* <div className='search'>
+ return (
+   <>
+     <div className='search'>
        <div className='searchInputs'>
        <input type='text' placeholder={placeholder} value={wordEntered} onChange={handleFilter}/>
        <div className='searchIcon'/>
-       {/* {dataRef.length === 0 ?(<button ></button>): (<button onclick={clearInput}>❌</button>)} 
-       </div>
-   </div>  */}
+        {/* {dataRef.length === 0 ?(<button ></button>): (<button onclick={clearInput}>❌</button>)}  */}
+       </div> 
+   </div>  
    </>
  );
 };
