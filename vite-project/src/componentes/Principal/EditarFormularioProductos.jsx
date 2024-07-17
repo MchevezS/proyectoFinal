@@ -4,7 +4,8 @@ import { useState } from 'react'
 const FormularioEditar = ({id,recargaPag}) => {
   const [nombre, setNombre] = useState('')
   const [precio, setPrecio] = useState('')
-  const [material, setMaterial] = useState('')
+  const [descripcion, setDescripcion] = useState('')
+
   const actualizar = async () => {
     const datos = {
       nombre: nombre,
@@ -26,8 +27,8 @@ const FormularioEditar = ({id,recargaPag}) => {
         <input type='number' onChange={(e) => { setPrecio(e.target.value) }} />
       </div>
       <div>
-        <label>MATERIAL</label>
-        <input type='text' onChange={(e) => { setMaterial(e.target.value) }} />
+        <label>DESCRIPCION</label>
+        <input type='text' onChange={(e) => { setDescripcion(e.target.value) }} />
       </div>
       <button type='button' onClick={actualizar}>EDITAR</button>
     </form>
