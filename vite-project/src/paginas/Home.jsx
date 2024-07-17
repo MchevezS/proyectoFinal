@@ -11,6 +11,8 @@ import Navbar from '../componentes/Principal/NavBar'
 import React, { useEffect, useRef, useState } from 'react'
 import BarraBusqueda from '../componentes/Principal/BarraBusqueda'
 import '/src/index.css'
+import FormularioArticulos from '../componentes/Principal/FormularioArticulos'
+import FormularioEditar from '../componentes/Principal/EditarFormularioProductos'
 
 const Home = () => {
       const [data, setData] = useState([])
@@ -38,8 +40,10 @@ const Home = () => {
     <BarraBusqueda  placeholder={"Buscar"} setData = {setData} dataRef= {dataRef}/> 
       <MejorCategoria/>
       <ContenedorCards botonEliminar={()=>{btnEliminar}} getCafe={data}/>
+      <br></br>
        <MejoresProductos/>
         {/* <Carousel/>  */}
+        <br></br>
      <InfoContacto/>
      <InfoCafeteria/>
     </div>

@@ -56,6 +56,9 @@ function FormularioArticulos() {
       {/* para que la persona agregue la imagen tiene que utilizar un input file */}
       <input className='imagen' type='file' value={imagen} placeholder='Inserta imagen' onChange={(e)=>setImegen(e.target.value)}/>
       <button type='button' className='btn btn-success' onClick={Validarvacios}>Agregar productos</button>
+      <a onClick={()=>{
+             navigate("/Home")
+         }}>Ir a Cafeteria FWD </a>
     </form> 
 
   )

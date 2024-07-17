@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 
  function Cards({nombre, precio, descripcion, imagen,botonEliminar, btnEliminar,btnEditar,mostrarBotones}) { //  estamos obteniendo los parametros del post 
   
@@ -7,11 +8,10 @@ import React from 'react'
     setIniciar(true)
   }
 
-  console.log(precio);
-  console.log(nombre);
 
   return (
     <div>
+    <img width={"400px"} height={"300px"} src={imagen}></img>
       <h1>Nombre:{nombre}</h1>
       <h2>Precio:{precio}</h2>
       <p>Descripcion:{descripcion}</p>

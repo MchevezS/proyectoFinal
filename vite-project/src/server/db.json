@@ -54,5 +54,13 @@
       "clave": "1010"
     }
   ],
-  "productos": []
+  "productos": [
+    {
+      "id": "39ee",
+      "nombre": "wndkflrf",
+      "informacion": "nnekdnolnlk",
+      "costo": "enodnoneknwe",
+      "imagen": "C:\\fakepath\\moverJugadorMario.png"
+    }
+  ]
 }
