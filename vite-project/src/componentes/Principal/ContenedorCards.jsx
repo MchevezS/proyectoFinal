@@ -2,7 +2,7 @@ import React from 'react'
 import Cards from './Cards'
 import { FormularioDelete } from '../fetchs/FormularioDelete'
 
-const ContenedorCards = ({getCafe}) => {
+const ContenedorCards = ({getCafe, btnEliminar,btnEditar,mostrarBotones}) => {
  const elimina= async(id)=>{
   await FormularioDelete(id)
  }
@@ -18,6 +18,8 @@ console.log(getCafe);
           descripcion={cafe.informacion}
           imagen={cafe.imagen}
           botonEliminar ={()=>elimina(cafe.id)}
+          btnEditar={()=> btnEditar(pul.id)}
+          mostrarBotones={mostrarBotones}
         />
       ) )}  
     </div>
