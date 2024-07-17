@@ -11,7 +11,7 @@ import { useState } from 'react'
 
   return (
     <div>
-    <img width={"400px"} height={"300px"} src={imagen}></img>
+    <img width={"300px"} height={"200px"} src={imagen}></img>
       <h1>Nombre:{nombre}</h1>
       <h2>Precio:{precio}</h2>
       <p>Descripcion:{descripcion}</p>
