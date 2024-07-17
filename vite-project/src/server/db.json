@@ -52,6 +52,12 @@
       "nombre": "michelle",
       "correo": "saboriomichelle93@gmail.com",
       "clave": "1010"
+    },
+    {
+      "id": "9ebd",
+      "nombre": "fran",
+      "correo": "dasd@dasd",
+      "clave": "1919"
     }
   ],
   "productos": [
